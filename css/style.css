@@ -1,0 +1,61 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #FBFBFB;
+    height: 100vh;
+    background-color: #192444;
+    background-image: linear-gradient(315deg, #1F3656 0%, #192444 74%);;
+}
+main{
+    height: 65vh;
+}
+h1{
+    font-size: 2rem;
+} 
+h2{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 0.8rem;
+}
+.score{
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    color: #192444;
+    width: 150px;
+}
+
+.select{
+    display: flex;
+    background: url('../images/bg-triangle.svg') center no-repeat content-box;
+    height: 500px;
+    width: 500px;
+}
+.result{
+    display: none;
+}
+#message-container{
+    display: none;
+}
+button.pick{
+    background:none;
+    border:none;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        font-size: 0.1rem;
+    }
+    .score{
+        width: 100px;
+    }
+    
+    .select{
+        width: 300px;
+        height: 300px;
+        background-size: 80%;
+    }
+    img{
+        width: 100px;
+    }
+
+}
